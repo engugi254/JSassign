@@ -12,7 +12,7 @@ do {
     if(a > 10 || a < 1){
         alert("Pick a Number between 1 and 10!");   
     } 
-    else if(typeof Number(myChoice) != 'number'){
+    else if(isNaN(myChoice) ){
         alert("You have not entered a Number"); 
         continue;
     } 
